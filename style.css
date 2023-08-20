@@ -1,0 +1,39 @@
+#affichage {
+    display: flex;
+}
+
+.bouton_annee , .bouton_mois {
+display: flex;
+background-color: #D3D3D3;
+width: 5em;
+height: 2em;
+padding: 1em;
+margin-top: 0.2em;
+align-items: center;
+justify-content: center;
+border: black solid 0.1em;
+}
+
+.bouton_annee:hover, .bouton_mois:hover {
+
+    background-color: grey;
+
+}
+.bouton_mois {
+    margin-left: 3em;
+    height: 0.5em;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#nombre_de_vue{
+    margin: 5em;
+}
+
+#active {
+    background-color: aqua;
+}
